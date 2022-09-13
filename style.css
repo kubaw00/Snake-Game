@@ -16,4 +16,13 @@ body {
     #a297f7 83.33%,
     #b193f2 100%
   );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(230, 230, 230);
 }
