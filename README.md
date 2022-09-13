@@ -1,6 +1,6 @@
 # Snake Game
 
-## [Link to App](https://serene-citadel-76532.herokuapp.com/)
+## [Link to App](https://kubaw00.github.io/Snake-Game/)
 
 > Campgrounds Website
 
@@ -10,4 +10,4 @@
 
 Simple Snake Game with JavaScript and Canvas
 
-![screenshot](https://github.com/kubaw00/E-commerce-react-app/blob/main/screenshots/homeScreen.png)
+![screenshot](https://github.com/kubaw00/Sanake-Game/blob/main/screenshots/sneke.png)
