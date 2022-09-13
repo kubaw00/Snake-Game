@@ -1,6 +1,10 @@
+document.querySelector('strong');
+
 class Snake {
   constructor() {
+    this.strong = document.querySelector('strong');
     this.points = 2;
+    this.results = 0;
     this.snake = [{ x: 10, y: 10 }];
     this.apple = this.generateAppleLocation();
     this.running = false;
@@ -37,7 +41,6 @@ class Snake {
 
   // nextmove w zależności od naciśnietych strzałek i aktywacja parametry running
   addKeyDownEventListener() {
-    console.log('here in listener');
     document.addEventListener('keydown', (e) => {
       if (e.code.startsWith('Arrow')) {
         this.running = true;
@@ -104,6 +107,8 @@ class Snake {
         this.apple.y === this.findHeadSnake().y
       ) {
         this.points++;
+        this.results += 100;
+        this.strong.innerText = this.results;
         this.apple = this.generateAppleLocation();
       }
 
@@ -132,6 +137,8 @@ class Snake {
 
   restartGame() {
     this.points = 2;
+    this.results = 0;
+    this.strong.innerText = 0;
     this.snake = [{ x: 10, y: 10 }];
     this.apple = this.generateAppleLocation();
     this.running = false;
