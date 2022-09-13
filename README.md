@@ -10,4 +10,4 @@
 
 Simple Snake Game with JavaScript and Canvas
 
-![screenshot](https://github.com/kubaw00/Snake-Game/blob/main/screenshots/sneke.png)
+![screenshot](https://github.com/kubaw00/Snake-Game/blob/main/screenshots/snake.png)
